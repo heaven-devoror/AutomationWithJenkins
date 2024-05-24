@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="TestNgPractice.Listeners.CustomeListeners">
+
+        </listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/RAVI KUMAR/IdeaProjects/Automation/src/test/java/TestNgPractice/Listeners/ListenerExample.java">
+        <classes>
+            <class name="TestNgPractice.Listeners.ListenerExample">
+            </class>
+        </classes>
+    </test>
+</suite>
